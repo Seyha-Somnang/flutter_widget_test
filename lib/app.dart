@@ -8,8 +8,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple), fontFamily: 'Poppins'),
-      home: const HomePage(title: 'Flutter Demo Home Page'),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      home: const HomeScreen(title: 'Flutter Demo Home Page'),
       debugShowCheckedModeBanner: false,
     );
   }
